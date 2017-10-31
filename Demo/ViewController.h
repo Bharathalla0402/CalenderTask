@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *leftbutt;
+@property (weak, nonatomic) IBOutlet UIButton *rightbutt;
+@property (weak, nonatomic) IBOutlet UILabel *datelab;
+@property (weak, nonatomic) IBOutlet UILabel *monthLab;
 
 @end
 
